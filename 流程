@@ -1,0 +1,26 @@
+Risc Zero 
+
+① curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+
+② sudo apt-get install -y nodejs
+
+
+node -v
+
+
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+source ~/.bashrc
+nvm ls-remote
+
+③ nvm install 16.20
+
+④ nvm use 16.20 
+
+
+
+3⃣ 安装 phase2cli 包工具，终端中输入
+
+① mkdir ~/p0tion-tmp && cd ~/p0tion-tmp
+
+② npm i @p0tion/phase2cli 
